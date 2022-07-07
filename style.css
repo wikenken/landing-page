@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 15px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.foot {
+    background-color: #1F2937;
+    color: white;
+}
